@@ -1,0 +1,120 @@
+.main-number {
+    color: #d5972b;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.sub-number {
+    color: #8d641c;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.sub-text {
+    font-size: 80%;
+}
+
+.stat-box {
+    background: #d7dbec;
+    border-radius: 8px;
+    color: #333;
+    padding: 16px;
+}
+
+.menu-box {
+    background: #d5972b;
+    border-radius: 8px;
+    height: 120px;
+    font-weight: bold;
+}
+
+#product-table thead {
+    background: #FFF;
+
+}
+
+#product-table tbody {
+    background: #4a4d77;
+    color: #FFF;
+}
+
+#product-table,
+#product-table tbody *,
+#product-table thead * {
+    border: none;
+}
+
+.modal-content .btn-light.btn-orange {
+    color: #545871;
+    background-color: #FFF;
+    border-color: transparent;
+}
+
+.btn-check:checked+.btn-light.btn-orange {
+    background-color: #e4bd79;
+    color: #9396a5;
+    box-shadow: none;
+    outline: none;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group>label {
+    margin-bottom: 6px;
+    color: #ccc;
+}
+
+.student-button-label{
+    background-color: #4a4d77;
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+    margin: 8px auto;
+    color: #FFF;
+}
+
+.btn-check-all-label{
+    background-color: #ebd0ce;
+    color: #000;
+    border-radius: 20px;
+    border: none;
+}
+
+.student-button-label:hover, .btn-check:checked + .student-button-label,
+.btn-check-all-label:hover, .btn-check:checked + .btn-check-all-label{
+    background-color: #d7dbec;
+    border: 1px solid rgba(74, 77, 119, 0.5);
+}
+
+#blur-bg{
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    filter: blur(5px);
+    z-index: -1;
+    overflow: hidden;
+    background: rgba(255,255,255,0.9);
+    filter: blur(2px);
+}
+
+.group_separator{
+    width: 20px;
+    display: inline-block;
+}
+
+.flex-even{
+    flex: 1;
+}
+
+.group-container label{
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.group-container{
+    margin-bottom: 16px;
+}

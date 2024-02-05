@@ -1,0 +1,299 @@
+a,
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#app {
+    min-height: 100vh;
+}
+
+.sidebar-wrapper {
+    background-color: #464d80;
+    padding: 0 48px 0 24px;
+    display: flex;
+    transition: 200ms;
+}
+
+.sidebar-wrapper-teacher {
+    padding-left: 0;
+    padding-right: 16px;
+    padding-top: 16px;
+}
+
+.sidebar-wrapper.sidebar-wrapper-collapsed {
+    padding: 16px 0 16px 16px;
+    background-color: #fff;
+    align-items: flex-start;
+}
+
+.sidebar-wrapper.sidebar-wrapper-collapsed .close-icon,
+.sidebar-wrapper.sidebar-wrapper-collapsed .icon-wrapper,
+.sidebar-wrapper.sidebar-wrapper .menu-icon {
+    display: none;
+}
+
+.sidebar-wrapper.sidebar-wrapper-collapsed .menu-icon {
+    display: inline-block;
+}
+
+.close-icon {
+    width: 29px;
+    height: 29px;
+    margin: 16px 4px 0 0;
+    object-fit: contain;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    cursor: pointer;
+    transition: 0ms;
+}
+
+.menu-icon {
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.sidebar-wrapper a:nth-of-type(1) {
+    margin-top: 32px;
+}
+
+.sidebar-wrapper .icon-wrapper {
+    display: block;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 16px auto 0;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+#teacher-sidebar .icon-wrapper {
+    padding-left: 12px;
+    width: 200px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    text-align: left;
+    font-weight: 600;
+    border-left: 4px solid transparent;
+}
+
+#teacher-sidebar .icon-wrapper.activated {
+    background: #515173;
+    border-left: 4px solid #d5972b;
+    color: #d5972b;
+}
+
+.sidebar-wrapper .icon-wrapper .icon {
+    color: #fff;
+    margin: auto;
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#teacher-sidebar .icon-wrapper i {
+    width: 32px;
+}
+
+.tuile-dashboard,
+.tuile-dashboard:hover {
+    background: #d5972b;
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px 16px 50px;
+    text-align: center;
+    margin-right: 16px;
+    min-height: 180px;
+    text-decoration: none;
+}
+
+.tuile-dashboard i {
+    font-size: 30px;
+}
+
+.tuile-dashboard .titre {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.tuile-dashboard .text {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.tuile-parcours,
+.tuile-parcours:hover {
+    background: #161c30;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0 0 16px;
+    text-align: left;
+    margin-right: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.tuile-parcours img {
+    width: 100%;
+}
+
+.tuile-parcours .titre {
+    padding: 8px;
+    font-weight: bolder;
+    font-size: 1.05rem;
+}
+
+.tuile-parcours .text {
+    padding: 0 8px;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.tuile-ateliers,
+.tuile-ateliers:hover {
+    background: #2b3c61;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0;
+    text-align: center;
+    margin-right: 16px;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    position: relative;
+}
+
+.tuile-ateliers img {
+    width: 100%;
+}
+
+.tuile-ateliers .titre {
+    padding: 8px;
+    font-weight: bolder;
+    font-size: 1.05rem;
+    height: 80px;
+}
+
+.tuile-ateliers .text {
+    padding: 0 8px;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.orange-text,
+.orange-text:hover {
+    color: #d5972b;
+}
+
+.orange-button,
+.orange-button:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #d89e41;
+    padding: 3px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+.blue-button,
+.blue-button:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #3e3a60;
+    padding: 3px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+.orange-button.big,
+.blue-button.big {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+}
+
+/* ATELIER */
+
+.atelier-sidebar-wrapper {
+    padding: 0 48px 0 24px;
+}
+
+/**************************************************************************/
+
+/* COURS */
+
+.chapitre-cours {
+    padding: 8px 16px;
+    background-color: #32315e;
+    color: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.avancement-cours {
+    padding: 32px 16px 0;
+}
+
+/****************************************************************************/
+
+.btn-orange,
+.btn-orange:hover {
+    background-color: #d5972b;
+    color: #fff;
+}
+
+.text-orange {
+    color: #d5972b;
+}
+
+.modal-content {
+    margin: 15% auto;
+    padding: 20px;
+    background-color: #fff;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: slide-in 0.5s forwards;
+}
+
+.close-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.close-button:hover {
+    background-color: #0056b3;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

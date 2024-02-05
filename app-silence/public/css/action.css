@@ -1,0 +1,403 @@
+.form-control,
+.btn {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.btn-check:checked + .btn-outline-primary {
+    color: #fff;
+}
+
+.action-sidebar,
+.action-sidebar a {
+    font-weight: 600;
+    color: #777;
+}
+
+.action-sidebar .action-menu-item {
+    padding: 12px 16px 12px 16px;
+    width: 160px;
+    text-align: center;
+    line-height: 110%;
+    font-size: 90%;
+}
+
+.action-sidebar .action-menu-item.active {
+    border-left: 4px solid #d5972b;
+    background: #e9d3ad;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    text-transform: uppercase;
+    font-size: 78%;
+}
+
+.action-title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 140%;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.action-subtitle {
+    color: #999;
+    font-size: 90%;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+
+.action-textarea {
+    border: 1px solid #eee;
+    resize: none;
+    padding: 8px;
+}
+
+.action-textarea:focus-visible {
+    border: 1px solid rgba(74, 77, 119, 0.1);
+    outline: none !important;
+    box-shadow: 0 0 2px rgba(74, 77, 119, 0.3);
+}
+
+.help-button {
+    color: #fff;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.small-help-button {
+    color: #d5972b;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+    bottom: 12px;
+    right: 8px;
+    margin-right: -8px;
+}
+
+.help-button[aria-describedby] {
+    color: #7e82a2;
+}
+
+.popover {
+    background: transparent;
+    text-align: center;
+    max-width: 600px;
+}
+
+.popover .arrow {
+    display: none;
+}
+
+.popover-body {
+    background: #c9cbd8;
+    color: #000;
+    border-radius: 5px;
+}
+
+.popover-orange .popover-body {
+    background: #e7c384;
+}
+
+.modal-content {
+    font-family: "Nunito", sans-serif;
+}
+
+.modal-content .nav-item {
+    width: 50%;
+}
+
+.modal-content .nav-item button {
+    width: 100%;
+}
+
+.scenario-blue-modal .modal-content {
+    background: #9294aa;
+    color: #fff;
+    border-radius: 24px;
+}
+
+.modal-backdrop.show {
+    opacity: 0.97;
+    background: #fff;
+}
+
+.scenario-blue-modal button.btn-primary {
+    background: #4a4d77;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 24px;
+    padding: 8px 24px;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    border: 1px solid;
+    position: relative;
+}
+
+table td:first-child {
+    font-family: Dosis;
+    padding: 16px 8px;
+    width: 300px;
+}
+
+table td:first-child div {
+    margin-bottom: 16px;
+}
+
+table td:first-child div:first-child {
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+}
+
+td textarea {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.add-personnage-input {
+    margin: 0 0 0 16px;
+    display: inline-block;
+    width: 300px;
+}
+
+.liste-personnage-item {
+    display: inline-block;
+}
+
+/****************************************************** SCENARIO *********************************************/
+
+.sequence-scenario-container {
+    padding: 32px 64px 32px;
+    letter-spacing: 3px;
+    font-size: 100%;
+    font-weight: 300;
+}
+
+.sequence-scenario-container .btn {
+    color: #fff;
+}
+
+.sequence-scenario-container label.btn {
+    color: #000;
+}
+
+.sequence-scenario-container textarea {
+    width: 70%;
+    border-radius: 5px;
+    padding: 8px;
+    resize: none;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.sequence-scenario-container .personnage-dialogue {
+    padding-left: 128px;
+}
+
+.personnage-select {
+    width: 150px;
+    display: inline-block;
+}
+
+.sequence-scenario-container .personnage-dialogue input {
+    width: 300px;
+    display: inline-block;
+}
+
+.personnages-container {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.liste-personnages {
+    margin-top: 8px;
+}
+
+.add-existing-personnage-sequence,
+.add-new-personnage-sequence {
+    display: inline-block;
+}
+
+.sequence-scenario-container .dialogue {
+    padding-left: 64px;
+    margin-top: 8px;
+}
+
+.scenario-vue-classique .oblique-separator,
+.scenario-vue-classique .add-dialogue-scene-btn,
+.scenario-vue-classique .add-description-scene-btn,
+.scenario-vue-classique .btn,
+.scenario-vue-classique .dialogues-descriptions .btn,
+.scenario-vue-classique .fa-trash-alt,
+.scenario-vue-classique .personnages-label,
+.scenario-vue-classique .add-personnage-input,
+.scenario-vue-classique .personnage-select,
+.scenario-vue-classique #scenario-personnages-container,
+.scenario-vue-classique #sequences,
+.scenario-vue-classique .add-existing-personnage-sequence,
+.scenario-vue-classique .add-new-personnage-sequence {
+    display: none;
+}
+
+.scenario-vue-classique .btn-check:checked + .btn-outline-primary,
+.scenario-vue-classique input[name="lieu"],
+.scenario-vue-classique .description-textarea {
+    display: inline-block;
+    background: none;
+    border: none;
+    color: #000;
+    width: auto;
+    pointer-events: none;
+}
+
+.scenario-vue-classique .liste-personnages {
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.liste-personnage-item .btn {
+    color: rgb(13, 110, 253);
+}
+
+.liste-personnage-item .btn:hover {
+    color: #fff;
+}
+
+.liste-personnage-item span {
+    text-transform: uppercase;
+}
+
+.scenario-vue-classique .personnage-dialogue {
+    padding-left: 64px;
+}
+
+.scenario-vue-classique .personnages-container {
+    margin-top: 0;
+}
+
+.personnage-select {
+    appearance: auto;
+}
+
+.description-container {
+    display: flex;
+    align-items: start; /* aligne le haut du textarea avec le haut des boutons */
+}
+
+.delete-description-btn {
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+#decoupage-vue-classique-btn {
+    cursor: pointer;
+}
+
+.liste-personnage-item.toggled-display {
+    display: block;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.validated-icon {
+    animation: fadeInOut 2s forwards;
+}
+
+.saving-btn {
+    background-color: #ffa500; /* orange */
+    /* Add other styling for saving state, like a spinning icon or different color */
+}
+
+.validated-icon {
+    background-color: #4caf50; /* green color for success */
+    /* Add other styling for success state, like a checkmark icon */
+}
+
+.save-btn {
+    background-color: #ffa500; /* original orange */
+}
+
+/* Style de base pour les boutons */
+.add-between-dialogue-scene-btn,
+.add-between-description-scene-btn {
+    border: none;
+    background: transparent;
+    padding: 0;
+    overflow: hidden;
+    width: 20px; /* Taille ajustable selon le besoin */
+    height: 20px; /* Taille ajustable selon le besoin */
+    position: relative;
+    line-height: 30px; /* Pour centrer verticalement */
+    text-align: center; /* Pour centrer horizontalement */
+    border-radius: 50%; /* rend le bouton circulaire */
+}
+
+/* Ajout du cercle de couleur */
+.add-between-dialogue-scene-btn {
+    background-color: #4a4d77;
+}
+
+.add-between-description-scene-btn {
+    background-color: #d6982c;
+}
+
+/* Style pour le signe plus */
+.add-between-dialogue-scene-btn::before,
+.add-between-description-scene-btn::before,
+.add-between-dialogue-scene-btn::after,
+.add-between-description-scene-btn::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+}
+
+/* Barre horizontale du signe plus */
+.add-between-dialogue-scene-btn::before,
+.add-between-description-scene-btn::before {
+    width: 60%; /* Largeur ajustable */
+    height: 10%; /* Hauteur ajustable */
+    top: 45%; /* Positionnement vertical */
+    left: 20%; /* Positionnement horizontal */
+}
+
+/* Barre verticale du signe plus */
+.add-between-dialogue-scene-btn::after,
+.add-between-description-scene-btn::after {
+    width: 10%; /* Largeur ajustable */
+    height: 60%; /* Hauteur ajustable */
+    top: 20%; /* Positionnement vertical */
+    left: 45%; /* Positionnement horizontal */
+}
+
+div > .btn.add-between-description-scene-btn,
+div > .btn.add-between-dialogue-scene-btn,
+div > p {
+    display: inline-block;
+}
+
+div > .btn.add-between-description-scene-btn:disabled,
+div > .btn.add-between-dialogue-scene-btn:disabled {
+    background: #d6982c;
+    pointer-events: none;
+    opacity: 1;
+}
